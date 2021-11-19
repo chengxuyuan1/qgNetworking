@@ -17,6 +17,7 @@ qgNetworking is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
+ pod 'qgNetworking',:git =>"https://github.com/chengxuyuan1/qgNetworking.git"
 pod 'qgNetworking'
 ```
 
