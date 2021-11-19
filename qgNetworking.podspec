@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/chengxuyuan1/qgNetworking.git'
+  s.homepage         = 'https://github.com/chengxuyuan1/qgNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'hqg' => '1271253083@qq.com' }
+  s.author           = { 'chengxuyuan1' => '515664633@qq.com' }
   s.source           = { :git => 'https://github.com/chengxuyuan1/qgNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.platform     = :ios, "5.0"
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'qgNetworking/Classes/**/*'
@@ -36,7 +36,10 @@ TODO: Add long description of the pod here.
   #   'qgNetworking' => ['qgNetworking/Assets/*.png']
   # }
 
+  s.frameworks = 'UIKit'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    #s.dependency 'AFNetworking', '~> 2.3'
+   
+   s.requires_arc = true
 end
