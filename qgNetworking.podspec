@@ -29,8 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.platform     = :ios, "5.0"
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'qgNetworking/Classes/**/*'
+  s.source_files = 'qgNetworking/*'
+  #s.source_files = 'qgNetworking/Classes/**/*'
   
   # s.resource_bundles = {
   #   'qgNetworking' => ['qgNetworking/Assets/*.png']
