@@ -1,0 +1,6 @@
+framework module Pods_qgNetworking_Tests {
+  umbrella header "Pods-qgNetworking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
