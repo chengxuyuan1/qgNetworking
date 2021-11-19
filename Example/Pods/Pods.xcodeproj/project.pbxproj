@@ -6,124 +6,129 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		CB210D4D1A81B66F0D8BA8E5D7181EEA /* qgNetworking */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = C0312552C69F9077B598E5C4BA1CE763 /* Build configuration list for PBXAggregateTarget "qgNetworking" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = qgNetworking;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		0D6E5754CCCB6939014653EE4ED563B8 /* qgNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FCB74257069094BA3C389C871B6459 /* qgNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		32BC4469FE46A8F10D23177A6E9028BA /* qgNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE172BE7EA7985D5E1E96466BCFDF5 /* qgNetworking-dummy.m */; };
+		3359318619C298CE43D3F84B759DA24C /* QGNetworkingMnaager.h in Headers */ = {isa = PBXBuildFile; fileRef = 380EA0EAEE7F251CDA93F53C998FB0CD /* QGNetworkingMnaager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		38B1A09BF4BDE3D6A5AB3F5E6A62F7FD /* Pods-qgNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E148C1F151AC8A0A71D0FA726718544B /* Pods-qgNetworking_Example-dummy.m */; };
+		38B1A09BF4BDE3D6A5AB3F5E6A62F7FD /* Pods-qgNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7377AB06F5DAEEA1E0BA572EC6E9320 /* Pods-qgNetworking_Example-dummy.m */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		5D6A6737D9F16ED74FF775DFF3B80424 /* Pods-qgNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCE457967907CC31ECE8B35DCE444EA /* Pods-qgNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D6A6737D9F16ED74FF775DFF3B80424 /* Pods-qgNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CD590F27E038D6DF40BD0D2AA9BBA1 /* Pods-qgNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62C993D3617077D8A9D65A79EA23CD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		683AB159F2EB283C85C6ED19CC5A6278 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F2D5DA397B2A57805E92CDF7C5802 /* ReplaceMe.m */; };
+		69CFAEE477266F47953054914CCF0EAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		870A00CF89FAFAFD2960E3D3F12CD677 /* Pods-qgNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D506852702CD0CF0972DFD5B382C35 /* Pods-qgNetworking_Tests-dummy.m */; };
+		870A00CF89FAFAFD2960E3D3F12CD677 /* Pods-qgNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 905FDAF8E9BB6F30C60CAD785A3CC3E5 /* Pods-qgNetworking_Tests-dummy.m */; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		B1E7941ED652F0BC36EE027F82F40509 /* QGNetworkingMnaager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDFE39C2804626A7A9DB6FEF5F16BBB /* QGNetworkingMnaager.m */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		DB6779AF3A746409498D6E7BB2D99614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		DBBDD8286E91E7CDDE0144C088DBEA2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		DE19715133E49F5461082E1ED8C1344C /* Pods-qgNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D0C90930E01E0FD464F12A16B735BC /* Pods-qgNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE19715133E49F5461082E1ED8C1344C /* Pods-qgNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE44625AF668DD710529CA8CE776A155 /* Pods-qgNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2AB9FC396D6163F2BF89F62D4EDBD0FA /* PBXContainerItemProxy */ = {
+		26F9A242B70556FF77C3779C38762A17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6CD9DA3447564AF3524FD088457E1560;
 			remoteInfo = "Pods-qgNetworking_Example";
 		};
-		2C9ADE7BD0784DE3CE65F85E6BA6927D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		579E12881D804ED9D40FABB760DF1936 /* PBXContainerItemProxy */ = {
+		3CE329706F2EA316E2F8CF924BCF82B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CB210D4D1A81B66F0D8BA8E5D7181EEA;
 			remoteInfo = qgNetworking;
 		};
+		B97954C2A2DED33805C326A5BE9561EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		149050E0E47AC5EBFBE63FC74643A67D /* qgNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qgNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		151F3476F4DE696ECCEFAE59E9372B6C /* qgNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qgNetworking.release.xcconfig; sourceTree = "<group>"; };
+		13FB9C1FD1070D6772EE436E885BE13E /* qgNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "qgNetworking-Info.plist"; sourceTree = "<group>"; };
+		17DD1EFCA129A16B86894F72A876FB0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1D4A0D30A1A172DB2A4FA8CBD1FE0A5E /* Pods-qgNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qgNetworking_Example-Info.plist"; sourceTree = "<group>"; };
+		1AF309ACA5FE060A1FAB180B2CC80B58 /* Pods-qgNetworking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qgNetworking_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2C333F3CC0786F711CC18C56642109AE /* qgNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qgNetworking-prefix.pch"; sourceTree = "<group>"; };
+		2F43A84CE1BCA806B7CE24FF87A67E54 /* Pods-qgNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qgNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
+		320FFA64F135CF4639D0D0A4FB7F3C3D /* Pods-qgNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qgNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3468077A689A562888F7853CDC7450EE /* qgNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = qgNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		353B60E87E56E414E5A3158518376BFE /* qgNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = qgNetworking.modulemap; sourceTree = "<group>"; };
+		380EA0EAEE7F251CDA93F53C998FB0CD /* QGNetworkingMnaager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QGNetworkingMnaager.h; path = qgNetworking/Classes/QGNetworkingMnaager.h; sourceTree = "<group>"; };
+		3D99BAF1BEDF6D94FE1744BDCD3B70B2 /* Pods-qgNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qgNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3D9F2D5DA397B2A57805E92CDF7C5802 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = qgNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3EFF9C948F106E978F068F834C091C40 /* qgNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qgNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		42F528B8705678737BEDD047760BFF80 /* Pods-qgNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qgNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		40B497E77AEF8F0CA932AEB02CAB7D4E /* Pods-qgNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qgNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		415C1D9B5979B76EEF464ED28C485D97 /* Pods-qgNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qgNetworking_Example-Info.plist"; sourceTree = "<group>"; };
+		44CD590F27E038D6DF40BD0D2AA9BBA1 /* Pods-qgNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qgNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4EE714E6B45AB58401D7C27BC27197D7 /* Pods-qgNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qgNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E08241F22FBC4B104282B081E0D36DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		69FCB74257069094BA3C389C871B6459 /* qgNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qgNetworking-umbrella.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6FC9856B255408D5341D43B873D5D6AF /* Pods-qgNetworking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qgNetworking_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		73AEC2C3559939F3FB643094EA426856 /* Pods-qgNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qgNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		74462A3718179A6589AC8D91584BD15D /* Pods-qgNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qgNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		790B92309A1619CC234AEF60C53F4E1A /* Pods-qgNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qgNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		80B35E1D0E747C166E3CEB729C6BF8F6 /* qgNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = qgNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		905FDAF8E9BB6F30C60CAD785A3CC3E5 /* Pods-qgNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qgNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		95852A96E2FB5536A7D66F9806D8FD16 /* Pods-qgNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qgNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		99CE60E5CDDB0A0290219D04CD5BE0B7 /* qgNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = qgNetworking; path = qgNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D803633AE39431BF4E33CE995F6F443 /* Pods-qgNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qgNetworking_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EB5F82B3A77B857FD9B1625F5460529 /* Pods-qgNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qgNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A1D506852702CD0CF0972DFD5B382C35 /* Pods-qgNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qgNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
-		A40B3B79F2537AA5F1CDE4623B6CC8B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A5B3C5EC229D6014CCFA05AB358EFC4B /* Pods-qgNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qgNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		9F77E556C25858B254CE007763D2F910 /* Pods-qgNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qgNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		AA68E5490A6AD2F94CB661EC9FD55041 /* Pods-qgNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qgNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B72B60926A3169BA1AE26AADE778F2ED /* Pods-qgNetworking_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-qgNetworking_Example"; path = Pods_qgNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBE5136EFB8492F5498A1189D3AAAF78 /* Pods-qgNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qgNetworking_Example.modulemap"; sourceTree = "<group>"; };
-		BE2053A70DC5E00F432FA84C4ED45A22 /* Pods-qgNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qgNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C7E06211D05CEF7520D9E0FB6BB27F67 /* Pods-qgNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qgNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF374484E5CD9A1CE799253B6C7E6B44 /* Pods-qgNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qgNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CC70033BE9A0019D6CCE5087E0395DC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CFCE457967907CC31ECE8B35DCE444EA /* Pods-qgNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qgNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
+		D05DA2D60EFDF919EA32D90728360285 /* qgNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qgNetworking.release.xcconfig; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		E148C1F151AC8A0A71D0FA726718544B /* Pods-qgNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qgNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+		DDA0D9CBD03EB895A0D4F625F0BA4A6D /* Pods-qgNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qgNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
+		DEDFE39C2804626A7A9DB6FEF5F16BBB /* QGNetworkingMnaager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QGNetworkingMnaager.m; path = qgNetworking/Classes/QGNetworkingMnaager.m; sourceTree = "<group>"; };
+		E0AE172BE7EA7985D5E1E96466BCFDF5 /* qgNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "qgNetworking-dummy.m"; sourceTree = "<group>"; };
+		E6339766D7AED01F027D07D74B1EF656 /* Pods-qgNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qgNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EC683C82F7AA03C25AD97ED14B2EA528 /* Pods-qgNetworking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-qgNetworking_Tests"; path = Pods_qgNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3D0C90930E01E0FD464F12A16B735BC /* Pods-qgNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qgNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FBC69FDE3EE0F7E7EBA4734FFBF11C01 /* Pods-qgNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qgNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7377AB06F5DAEEA1E0BA572EC6E9320 /* Pods-qgNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qgNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+		FC74E03D8A061D576BFF93B297203CC4 /* Pods-qgNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qgNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE44625AF668DD710529CA8CE776A155 /* Pods-qgNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qgNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +138,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6779AF3A746409498D6E7BB2D99614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB4A7C10A88345D442E3F59D35040BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C993D3617077D8A9D65A79EA23CD16 /* Foundation.framework in Frameworks */,
+				69CFAEE477266F47953054914CCF0EAC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,14 +172,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07EFDA81C133E6C1EA604570DB418F16 /* Pod */ = {
+		0F0ED68B2964047695BB28EAF0575269 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC70033BE9A0019D6CCE5087E0395DC0 /* LICENSE */,
-				80B35E1D0E747C166E3CEB729C6BF8F6 /* qgNetworking.podspec */,
-				A40B3B79F2537AA5F1CDE4623B6CC8B2 /* README.md */,
+				353B60E87E56E414E5A3158518376BFE /* qgNetworking.modulemap */,
+				E0AE172BE7EA7985D5E1E96466BCFDF5 /* qgNetworking-dummy.m */,
+				13FB9C1FD1070D6772EE436E885BE13E /* qgNetworking-Info.plist */,
+				2C333F3CC0786F711CC18C56642109AE /* qgNetworking-prefix.pch */,
+				69FCB74257069094BA3C389C871B6459 /* qgNetworking-umbrella.h */,
+				3EFF9C948F106E978F068F834C091C40 /* qgNetworking.debug.xcconfig */,
+				D05DA2D60EFDF919EA32D90728360285 /* qgNetworking.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/qgNetworking";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -189,24 +208,51 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		737E51F056E400834AD34CD0401FB35F /* Products */ = {
+		5FC1393B657FD37E5F8D5F7B56BE4DE0 /* qgNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
-				B72B60926A3169BA1AE26AADE778F2ED /* Pods-qgNetworking_Example */,
-				EC683C82F7AA03C25AD97ED14B2EA528 /* Pods-qgNetworking_Tests */,
+				380EA0EAEE7F251CDA93F53C998FB0CD /* QGNetworkingMnaager.h */,
+				DEDFE39C2804626A7A9DB6FEF5F16BBB /* QGNetworkingMnaager.m */,
+				3D9F2D5DA397B2A57805E92CDF7C5802 /* ReplaceMe.m */,
+				E72C82003F0A24DB366697069F115BBE /* Pod */,
+				0F0ED68B2964047695BB28EAF0575269 /* Support Files */,
 			);
-			name = Products;
+			name = qgNetworking;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		74B4D2040A853D58E9B1CE2DE0CAD805 /* Support Files */ = {
+		70831CB951E03AEF9A26825CBD475A5E /* Pods-qgNetworking_Example */ = {
 			isa = PBXGroup;
 			children = (
-				149050E0E47AC5EBFBE63FC74643A67D /* qgNetworking.debug.xcconfig */,
-				151F3476F4DE696ECCEFAE59E9372B6C /* qgNetworking.release.xcconfig */,
+				9F77E556C25858B254CE007763D2F910 /* Pods-qgNetworking_Example.modulemap */,
+				40B497E77AEF8F0CA932AEB02CAB7D4E /* Pods-qgNetworking_Example-acknowledgements.markdown */,
+				4EE714E6B45AB58401D7C27BC27197D7 /* Pods-qgNetworking_Example-acknowledgements.plist */,
+				F7377AB06F5DAEEA1E0BA572EC6E9320 /* Pods-qgNetworking_Example-dummy.m */,
+				2F43A84CE1BCA806B7CE24FF87A67E54 /* Pods-qgNetworking_Example-frameworks.sh */,
+				415C1D9B5979B76EEF464ED28C485D97 /* Pods-qgNetworking_Example-Info.plist */,
+				44CD590F27E038D6DF40BD0D2AA9BBA1 /* Pods-qgNetworking_Example-umbrella.h */,
+				3D99BAF1BEDF6D94FE1744BDCD3B70B2 /* Pods-qgNetworking_Example.debug.xcconfig */,
+				320FFA64F135CF4639D0D0A4FB7F3C3D /* Pods-qgNetworking_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/qgNetworking";
+			name = "Pods-qgNetworking_Example";
+			path = "Target Support Files/Pods-qgNetworking_Example";
+			sourceTree = "<group>";
+		};
+		7241C52DD49F99FD2A373491A5696BE5 /* Pods-qgNetworking_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D803633AE39431BF4E33CE995F6F443 /* Pods-qgNetworking_Tests.modulemap */,
+				FC74E03D8A061D576BFF93B297203CC4 /* Pods-qgNetworking_Tests-acknowledgements.markdown */,
+				BF374484E5CD9A1CE799253B6C7E6B44 /* Pods-qgNetworking_Tests-acknowledgements.plist */,
+				905FDAF8E9BB6F30C60CAD785A3CC3E5 /* Pods-qgNetworking_Tests-dummy.m */,
+				1AF309ACA5FE060A1FAB180B2CC80B58 /* Pods-qgNetworking_Tests-frameworks.sh */,
+				DDA0D9CBD03EB895A0D4F625F0BA4A6D /* Pods-qgNetworking_Tests-Info.plist */,
+				FE44625AF668DD710529CA8CE776A155 /* Pods-qgNetworking_Tests-umbrella.h */,
+				E6339766D7AED01F027D07D74B1EF656 /* Pods-qgNetworking_Tests.debug.xcconfig */,
+				AA68E5490A6AD2F94CB661EC9FD55041 /* Pods-qgNetworking_Tests.release.xcconfig */,
+			);
+			name = "Pods-qgNetworking_Tests";
+			path = "Target Support Files/Pods-qgNetworking_Tests";
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -217,30 +263,15 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		9A6CF74C4BB288779B2142B1C51C9169 /* Targets Support Files */ = {
+		9FB5C01B74B65C2D868F479C21D766D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB516C21ABB6B86162C123687634B76A /* Pods-qgNetworking_Example */,
-				B6688C1F6A2FF8465925584B7D117129 /* Pods-qgNetworking_Tests */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				B72B60926A3169BA1AE26AADE778F2ED /* Pods-qgNetworking_Example */,
+				EC683C82F7AA03C25AD97ED14B2EA528 /* Pods-qgNetworking_Tests */,
+				99CE60E5CDDB0A0290219D04CD5BE0B7 /* qgNetworking */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B6688C1F6A2FF8465925584B7D117129 /* Pods-qgNetworking_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A5B3C5EC229D6014CCFA05AB358EFC4B /* Pods-qgNetworking_Tests.modulemap */,
-				FBC69FDE3EE0F7E7EBA4734FFBF11C01 /* Pods-qgNetworking_Tests-acknowledgements.markdown */,
-				95852A96E2FB5536A7D66F9806D8FD16 /* Pods-qgNetworking_Tests-acknowledgements.plist */,
-				A1D506852702CD0CF0972DFD5B382C35 /* Pods-qgNetworking_Tests-dummy.m */,
-				6FC9856B255408D5341D43B873D5D6AF /* Pods-qgNetworking_Tests-frameworks.sh */,
-				790B92309A1619CC234AEF60C53F4E1A /* Pods-qgNetworking_Tests-Info.plist */,
-				F3D0C90930E01E0FD464F12A16B735BC /* Pods-qgNetworking_Tests-umbrella.h */,
-				9EB5F82B3A77B857FD9B1625F5460529 /* Pods-qgNetworking_Tests.debug.xcconfig */,
-				BE2053A70DC5E00F432FA84C4ED45A22 /* Pods-qgNetworking_Tests.release.xcconfig */,
-			);
-			name = "Pods-qgNetworking_Tests";
-			path = "Target Support Files/Pods-qgNetworking_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -258,16 +289,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		B9D8B476EAF0683274F229865C5D8F6F /* qgNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				07EFDA81C133E6C1EA604570DB418F16 /* Pod */,
-				74B4D2040A853D58E9B1CE2DE0CAD805 /* Support Files */,
-			);
-			name = qgNetworking;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,20 +297,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BB516C21ABB6B86162C123687634B76A /* Pods-qgNetworking_Example */ = {
+		BC9671B9CE2EDCC36BA01A2E5A3C51B3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BBE5136EFB8492F5498A1189D3AAAF78 /* Pods-qgNetworking_Example.modulemap */,
-				74462A3718179A6589AC8D91584BD15D /* Pods-qgNetworking_Example-acknowledgements.markdown */,
-				C7E06211D05CEF7520D9E0FB6BB27F67 /* Pods-qgNetworking_Example-acknowledgements.plist */,
-				E148C1F151AC8A0A71D0FA726718544B /* Pods-qgNetworking_Example-dummy.m */,
-				1D4A0D30A1A172DB2A4FA8CBD1FE0A5E /* Pods-qgNetworking_Example-Info.plist */,
-				CFCE457967907CC31ECE8B35DCE444EA /* Pods-qgNetworking_Example-umbrella.h */,
-				42F528B8705678737BEDD047760BFF80 /* Pods-qgNetworking_Example.debug.xcconfig */,
-				73AEC2C3559939F3FB643094EA426856 /* Pods-qgNetworking_Example.release.xcconfig */,
+				5FC1393B657FD37E5F8D5F7B56BE4DE0 /* qgNetworking */,
 			);
-			name = "Pods-qgNetworking_Example";
-			path = "Target Support Files/Pods-qgNetworking_Example";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
@@ -307,12 +320,22 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EB830C208DCD1FC8F6225D2541A19D4F /* Development Pods */,
+				BC9671B9CE2EDCC36BA01A2E5A3C51B3 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				737E51F056E400834AD34CD0401FB35F /* Products */,
-				9A6CF74C4BB288779B2142B1C51C9169 /* Targets Support Files */,
+				9FB5C01B74B65C2D868F479C21D766D4 /* Products */,
+				F5322C1462D2AAC091F531164C5C9DA7 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E72C82003F0A24DB366697069F115BBE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E08241F22FBC4B104282B081E0D36DA /* LICENSE */,
+				3468077A689A562888F7853CDC7450EE /* qgNetworking.podspec */,
+				17DD1EFCA129A16B86894F72A876FB0D /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -323,12 +346,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EB830C208DCD1FC8F6225D2541A19D4F /* Development Pods */ = {
+		F5322C1462D2AAC091F531164C5C9DA7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B9D8B476EAF0683274F229865C5D8F6F /* qgNetworking */,
+				70831CB951E03AEF9A26825CBD475A5E /* Pods-qgNetworking_Example */,
+				7241C52DD49F99FD2A373491A5696BE5 /* Pods-qgNetworking_Tests */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
@@ -376,6 +400,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E40B3E926FA3D85C7D086CEEF6E307C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6E5754CCCB6939014653EE4ED563B8 /* qgNetworking-umbrella.h in Headers */,
+				3359318619C298CE43D3F84B759DA24C /* QGNetworkingMnaager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -391,7 +424,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BB7182873230207FA232C19959148C16 /* PBXTargetDependency */,
+				39EF566077A89ADE1EBD89C2BC0604AD /* PBXTargetDependency */,
 			);
 			name = "Pods-qgNetworking_Example";
 			productName = Pods_qgNetworking_Example;
@@ -410,8 +443,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				DF231687294000ED7CE68AA11D922989 /* PBXTargetDependency */,
-				79D76798B1973BC26C168D078E95A31D /* PBXTargetDependency */,
+				5DD78A75109C6572C472344BB9ED2689 /* PBXTargetDependency */,
+				67BD3A1F69805F63781D9E2DA83A1CEC /* PBXTargetDependency */,
 			);
 			name = "Pods-qgNetworking_Tests";
 			productName = Pods_qgNetworking_Tests;
@@ -436,6 +469,24 @@
 			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
 			productType = "com.apple.product-type.framework";
 		};
+		CB210D4D1A81B66F0D8BA8E5D7181EEA /* qgNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D36D41B20630B172EEEFD67037D89A0 /* Build configuration list for PBXNativeTarget "qgNetworking" */;
+			buildPhases = (
+				E40B3E926FA3D85C7D086CEEF6E307C0 /* Headers */,
+				44C12B41BEC7FC7B1341F4A1995C3F55 /* Sources */,
+				0FB4A7C10A88345D442E3F59D35040BA /* Frameworks */,
+				3039651C07537FAD6692665141FCD089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qgNetworking;
+			productName = qgNetworking;
+			productReference = 99CE60E5CDDB0A0290219D04CD5BE0B7 /* qgNetworking */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -454,7 +505,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 737E51F056E400834AD34CD0401FB35F /* Products */;
+			productRefGroup = 9FB5C01B74B65C2D868F479C21D766D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -468,6 +519,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3039651C07537FAD6692665141FCD089 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,6 +549,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		44C12B41BEC7FC7B1341F4A1995C3F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BC4469FE46A8F10D23177A6E9028BA /* qgNetworking-dummy.m in Sources */,
+				B1E7941ED652F0BC36EE027F82F40509 /* QGNetworkingMnaager.m in Sources */,
+				683AB159F2EB283C85C6ED19CC5A6278 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51C96543B74EE16F0B79F7B5ECC01780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,23 +594,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		79D76798B1973BC26C168D078E95A31D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-qgNetworking_Example";
-			target = 6CD9DA3447564AF3524FD088457E1560 /* Pods-qgNetworking_Example */;
-			targetProxy = 2AB9FC396D6163F2BF89F62D4EDBD0FA /* PBXContainerItemProxy */;
-		};
-		BB7182873230207FA232C19959148C16 /* PBXTargetDependency */ = {
+		39EF566077A89ADE1EBD89C2BC0604AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = qgNetworking;
 			target = CB210D4D1A81B66F0D8BA8E5D7181EEA /* qgNetworking */;
-			targetProxy = 579E12881D804ED9D40FABB760DF1936 /* PBXContainerItemProxy */;
+			targetProxy = 3CE329706F2EA316E2F8CF924BCF82B0 /* PBXContainerItemProxy */;
 		};
-		DF231687294000ED7CE68AA11D922989 /* PBXTargetDependency */ = {
+		5DD78A75109C6572C472344BB9ED2689 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 2C9ADE7BD0784DE3CE65F85E6BA6927D /* PBXContainerItemProxy */;
+			targetProxy = B97954C2A2DED33805C326A5BE9561EE /* PBXContainerItemProxy */;
+		};
+		67BD3A1F69805F63781D9E2DA83A1CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-qgNetworking_Example";
+			target = 6CD9DA3447564AF3524FD088457E1560 /* Pods-qgNetworking_Example */;
+			targetProxy = 26F9A242B70556FF77C3779C38762A17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -577,19 +645,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		22F279ADE0B1CD2D27757527ECA0F5C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 149050E0E47AC5EBFBE63FC74643A67D /* qgNetworking.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -657,23 +712,40 @@
 			};
 			name = Debug;
 		};
-		54B01A3B9CD4F1129CAE9FA8BE377AE6 /* Release */ = {
+		34A3F86F9E020A77524647F6B4831B1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 151F3476F4DE696ECCEFAE59E9372B6C /* qgNetworking.release.xcconfig */;
+			baseConfigurationReference = D05DA2D60EFDF919EA32D90728360285 /* qgNetworking.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/qgNetworking/qgNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qgNetworking/qgNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qgNetworking/qgNetworking.modulemap";
+				PRODUCT_MODULE_NAME = qgNetworking;
+				PRODUCT_NAME = qgNetworking;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		77D09096214414A11BCB0C3B890E7434 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE2053A70DC5E00F432FA84C4ED45A22 /* Pods-qgNetworking_Tests.release.xcconfig */;
+			baseConfigurationReference = AA68E5490A6AD2F94CB661EC9FD55041 /* Pods-qgNetworking_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -736,7 +808,7 @@
 		};
 		8DA45B1AF68E86872E22D8E13C26A7F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EB5F82B3A77B857FD9B1625F5460529 /* Pods-qgNetworking_Tests.debug.xcconfig */;
+			baseConfigurationReference = E6339766D7AED01F027D07D74B1EF656 /* Pods-qgNetworking_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -768,7 +840,7 @@
 		};
 		93AD07EB49F0E381804EEBF0AEAFCF37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73AEC2C3559939F3FB643094EA426856 /* Pods-qgNetworking_Example.release.xcconfig */;
+			baseConfigurationReference = 320FFA64F135CF4639D0D0A4FB7F3C3D /* Pods-qgNetworking_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -801,7 +873,7 @@
 		};
 		BE11418992AF54375AFCBDF16718312A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42F528B8705678737BEDD047760BFF80 /* Pods-qgNetworking_Example.debug.xcconfig */;
+			baseConfigurationReference = 3D99BAF1BEDF6D94FE1744BDCD3B70B2 /* Pods-qgNetworking_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -893,6 +965,36 @@
 			};
 			name = Release;
 		};
+		F468CF5DA318FB09A0CBE196C59958D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFF9C948F106E978F068F834C091C40 /* qgNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/qgNetworking/qgNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qgNetworking/qgNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qgNetworking/qgNetworking.modulemap";
+				PRODUCT_MODULE_NAME = qgNetworking;
+				PRODUCT_NAME = qgNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -932,11 +1034,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0312552C69F9077B598E5C4BA1CE763 /* Build configuration list for PBXAggregateTarget "qgNetworking" */ = {
+		8D36D41B20630B172EEEFD67037D89A0 /* Build configuration list for PBXNativeTarget "qgNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22F279ADE0B1CD2D27757527ECA0F5C6 /* Debug */,
-				54B01A3B9CD4F1129CAE9FA8BE377AE6 /* Release */,
+				F468CF5DA318FB09A0CBE196C59958D3 /* Debug */,
+				34A3F86F9E020A77524647F6B4831B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
