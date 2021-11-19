@@ -2,7 +2,7 @@
   "name": "qgNetworking",
   "version": "0.1.0",
   "summary": "jjjjjjjj qgNetworking.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO:qgNetworking is networking",
   "homepage": "https://github.com/chengxuyuan1/qgNetworking.git",
   "license": {
     "type": "MIT",
@@ -19,6 +19,6 @@
     "ios": "9.0"
   },
   "source_files": "qgNetworking/Classes/**/*",
-  "frameworks": "UIKit",
+  "frameworks": "Foundation",
   "requires_arc": true
 }
