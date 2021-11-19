@@ -8,7 +8,7 @@
 #import "QGNetworkingMnaager.h"
 
 @implementation QGNetworkingMnaager
--(void)testPrint:(NSString *)text{
++(void)testPrint:(NSString *)text{
     NSLog(@" QGNetworkingMnaager print====%@",text);
 }
 @end

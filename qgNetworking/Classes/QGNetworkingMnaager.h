@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QGNetworkingMnaager : NSObject
--(void)testPrint:(NSString *)text;
++(void)testPrint:(NSString *)text;
 @end
 
 NS_ASSUME_NONNULL_END
